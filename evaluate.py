@@ -11,7 +11,7 @@ def evaluate_candidates():
         if df.empty:
             print("No mechanical candidates found.")
             return
-        //
+        
         selected_candidates = []
         
         print(f"Found {len(df)} mechanical candidates to evaluate.\n")
